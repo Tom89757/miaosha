@@ -12,8 +12,8 @@ import org.springframework.stereotype.Service;
 import java.util.concurrent.TimeUnit;
 
 @Service
-public class StockServiceImpl implements StockService {
 
+public class StockServiceImpl implements StockService {
     private static final Logger LOGGER = LoggerFactory.getLogger(StockServiceImpl.class);
 
     @Autowired
